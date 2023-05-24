@@ -1,0 +1,22 @@
+html{
+    margin: 0;
+    padding: 1rem;
+    background-color: #0F0F0F;
+    color: #F1F1F1;
+}
+
+body{
+    background-color: #0F0F0F;
+    color: #F1F1F1;
+}
+
+.rowContainer{
+    display: flex;
+    align-items: center;
+    margin-top: .2rem;
+}
+
+.rowContainer > *{
+    flex-wrap: wrap;
+    margin-right: .2rem;
+}
